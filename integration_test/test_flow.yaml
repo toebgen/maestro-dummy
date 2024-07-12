@@ -3,3 +3,5 @@ appId: com.example.maestroDummy
 - launchApp
 - tapOn: "Increment from InkWell"
 - tapOn: "Increment from InkWell"
+- tapOn: "Increment from Semantics InkWell Label"
+- tapOn: "Increment from Semantics InkWell"

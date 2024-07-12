@@ -116,6 +116,13 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: _incrementCounter,
               child: const Text('Increment from InkWell'),
             ),
+            Semantics(
+              label: 'Increment from Semantics InkWell Label',
+              child: InkWell(
+                onTap: _incrementCounter,
+                child: const Text('Increment from Semantics InkWell'),
+              ),
+            ),
           ],
         ),
       ),
