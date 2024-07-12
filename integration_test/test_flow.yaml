@@ -1,0 +1,5 @@
+appId: com.example.maestroDummy
+---
+- launchApp
+- tapOn: "Increment from InkWell"
+- tapOn: "Increment from InkWell"

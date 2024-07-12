@@ -112,6 +112,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            InkWell(
+              onTap: _incrementCounter,
+              child: const Text('Increment from InkWell'),
+            ),
           ],
         ),
       ),
